@@ -6,28 +6,41 @@
 </head>
 <body>
 <header class="main-header">
-  <nav class="navigation">
-    <ul>
       <form action="#" method="get">
         <input placeholder="Поиск по сайту" type="submit">
         <button type="submit">Найти</button>
       </form>
+
+    <div class="person-data">
       <a href="#">Коля Петухов</a>
       <a href="#">Выйти</a>
-    </ul>
-    <ul>
-      <a href="#">Сравнить</a>
-      <a href="#">Корзина</a>
-    </ul>
-    <ul>
-      <a href="catalog.html">Каталог товаров</a>
-      <a href="#">Доставка</a>
-      <a href="#">Гарантия</a>
-      <a href="#">Контакты</a>
-    </ul>
+    </div>
+
+  <div class="basket">
+    <a href="#">Сравнить</a>
+    <a href="#">Корзина</a>
+  </div>
+
+  <nav class="navigation">
+    <button>
+        Каталог товаров
+        <img src="" alt="">
+    </button>
   </nav>
-</header>
-<main class="main-inner">
+
+    <ul>
+      <li>
+        <a href="#">Доставка</a>
+      </li>
+      <li>
+        <a href="#">Гарантия</a>
+      </li>
+      <li>
+        <a href="#">Контакты</a>
+      </li>
+    </ul>
+
+    <main class="main-inner">
   <header class="inner-header">
     <h1>Моноподы для селфи</h1>
   <ul class="pointers">
@@ -41,8 +54,9 @@
       <a class="pointers-link">Моноподы для селфи</a>
     </li>
   </ul>
-  </header>
-  <section class="filter">
+   </header>
+
+      <section class="filter">
     <h2 class="visually-hidden">Список товаров с филтрами</h2>
     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
        <fieldset>
@@ -80,6 +94,7 @@
            </li>
          </ul>
       </fieldset>
+
       <fieldset>
         <legend class="catalog-filter-title">Bluetooth</legend>
         <ul>
@@ -97,17 +112,27 @@
           </li>
         </ul>
       </fieldset>
+
       <button class="button">Показать</button>
     </form>
-    <select class="select control" aria-label="Сортировка">
-      <option value="popular">Популярные</option>
-    </select>
-    <ul class="product-cards">
-      <li class="product-card-link" href="#">
-        <img class="product-card-image" src="" alt="">
-        <h3>Любительская селфи-палка</h3>
-      </li>
-      <p class="price">500 ₽</p>
+  </section>
+
+   <section>
+     <header>
+         <label>Сортировка</label>
+
+         <select class="select control" aria-label="Сортировка">
+           <option value="popular">Популярные</option>
+         </select>
+     </header>
+
+
+       <ul class="product-cards">
+         <li class="product-card-link" href="#">
+           <img class="product-card-image" src="" alt="">
+           <h3>Любительская селфи-палка</h3>
+         </li>
+        <p class="price">500 ₽</p>
         <li class="product-card-link" href="#">
           <img class="product-card-image" src="" alt="">
           <h3>Профессиональная селфи-палка</h3>
@@ -121,32 +146,37 @@
             <li class="product-card-link" href="#">
               <img class="product-card-image" src="" alt="">
               <h3>Селфи-палка "Следуй за мной"</h3>
-            </li>
             <p class="price">1500 ₽</p>
-            <button class="button">Загрузить ещё</button>
-    </ul>
+            </li>
+        </ul>
+
+       <button class="button">Загрузить ещё</button>
+
+
       <ul class="pagination">
-     <li>
-       <a class="pagination-link">
-         <span>Назад</span>
-       </a>
-     </li>
+       <li>
+         <a class="pagination-link">Назад</a>
+       </li>
         <li>
           <a class="pagination-link" href="#">1</a>
         </li>
         <li>
           <a class="pagination-link" href="#">2</a>
         </li>
+
         <li>
           <a class="pagination-link" href="#">3</a>
         </li>
         <li>
-          <p class="pagination-link">...</p>
+          <a class="pagination-link">...</a>
+        </li>
+        <li>
           <a class="pagination-link" href="#">15</a>
         </li>
       </ul>
   </section>
-</main>
+    </main>
+
 <footer class="page-footer">
   <section class="footer-contacts">
     <h2 class="visually-hidden">Контакты</h2>
@@ -184,5 +214,6 @@
     <a class="htmlacademy-link" href="https://htmlacademy.ru/"></a>
   </section>
 </footer>
+</header>
 </body>
 </html>
