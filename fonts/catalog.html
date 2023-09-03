@@ -8,27 +8,27 @@
 
   <body>
     <header class="main-header">
+      <form action="#" method="get">
+        <input placeholder="Поиск по сайту" type="submit">
+        <button type="submit">Найти</button>
+      </form>
+
+      <div class="person-data">
+        <a href="#">Коля Петухов</a>
+        <a href="#">Выйти</a>
+      </div>
+
+      <div class="basket">
+        <a href="#">Сравнить</a>
+        <a href="#">Корзина</a>
+      </div>
+
+      <button>
+        Каталог товаров
+        <img src="" alt="">
+      </button>
+
       <nav class="navigation">
-        <form action="#" method="get">
-          <input placeholder="Поиск по сайту" type="submit">
-          <button type="submit">Найти</button>
-        </form>
-
-        <div class="person-data">
-          <a href="#">Коля Петухов</a>
-          <a href="#">Выйти</a>
-        </div>
-
-        <div class="basket">
-          <a href="#">Сравнить</a>
-          <a href="#">Корзина</a>
-        </div>
-
-        <button>
-          Каталог товаров
-          <img src="" alt="">
-        </button>
-
         <ul>
           <li>
             <a href="#">Доставка</a>
@@ -60,7 +60,7 @@
       </header>
 
       <section class="filter">
-        <h2 class="visually-hidden">Список товаров с филтрами</h2>
+        <h2 class="visually-hidden">Список товаров с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset>
             <legend class="catalog-filter-title">Цвет</legend>
@@ -155,7 +155,7 @@
 
         <button class="button">Загрузить ещё</button>
 
-
+        <a class="pagination-link">Назад</a>
         <ul class="pagination">
           <li>
             <a class="pagination-link" href="#">1</a>
@@ -174,24 +174,36 @@
             <a class="pagination-link" href="#">15</a>
           </li>
         </ul>
-        <a class="pagination-link">Назад</a>
         <a class="pagination-link-1">Вперёд</a>
-
       </section>
     </main>
 
     <footer class="page-footer">
-      <section class="footer-contacts">
+      <nav class="footer-contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <img class="footer-contact-logo" src="" alt="Интернет-магазин Девайс">
-        <address class="contact-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
-      </section>
+        <ul>
+          <li>
+            <img class="footer-contact-logo" src="" alt="Интернет-магазин Девайс">
+          </li>
+          <li>
+            <address class="contact-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
+          </li>
+        </ul>
+      </nav>
 
-      <section class="footer-links">
-        <a href="#">Доставка</a>
-        <a href="#">Гарантия</a>
-        <a href="#">Контакты</a>
-      </section>
+      <nav class="footer-links">
+        <ul>
+          <li>
+            <a href="#">Доставка</a>
+          </li>
+          <li>
+            <a href="#">Гарантия</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
 
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
@@ -214,11 +226,17 @@
         </ul>
       </section>
 
-      <section class="footer-contacts">
+      <nav class="footer-contacts">
         <h2 class="visually-hidden">Телефон</h2>
-        <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
-        <a class="htmlacademy-link" href="https://htmlacademy.ru/">/.htmlacademy</a>
-      </section>
+        <ul>
+          <li></li>
+          <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+          </li>
+          <li>
+            <a class="htmlacademy-link" href="https://htmlacademy.ru/">/.htmlacademy</a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 

@@ -8,22 +8,18 @@
 
   <body>
     <header class="main-header">
+      <form action="#" method="get">
+        <input placeholder="Поиск по сайту" type="submit">
+        <button type="submit">Найти</button>
+      </form>
+      <a href="#">Войти</a>
+
+      <div class="basket">
+        <a href="#">Сравнить</a>
+        <a href="#">Корзина</a>
+      </div>
+
       <nav class="navigation">
-        <form action="#" method="get">
-          <input placeholder="Поиск по сайту" type="submit">
-          <button type="submit">Найти</button>
-        </form>
-        <a href="#">Войти</a>
-
-        <ul>
-          <li>
-            <a href="#">Сравнить</a>
-          </li>
-          <li>
-            <a href="#">Корзина</a>
-          </li>
-        </ul>
-
         <ul>
           <li>
             <a href="catalog.html">Каталог товаров</a>
@@ -42,10 +38,12 @@
     </header>
 
     <main>
-      <h2>Порхает как бабочка, жалит как пчела</h2>
-      <div>Этот обычный, на первый взгляд, квадрокоптер оснащён<br>
-        мощным лазером, замаскированным под стандартную камеру.
-      </div>
+      <dl>
+        <dt>Порхает как бабочка, жалит как пчела</dt>
+        <dd>Этот обычный, на первый взгляд, квадрокоптер оснащён<br>
+          мощным лазером, замаскированным под стандартную камеру.
+        </dd>
+      </dl>
       <ul class="details">
         <li>
           <span class="number">800м</span><br>
@@ -59,11 +57,9 @@
         <li>
           <span class="description">Радиус поражения</span>
         </li>
-        <li>
-          <img class="slider-image" src="" alt="Примеры товаров">
-        </li>
       </ul>
 
+      <img class="slider-image" src="" alt="Примеры товаров">
       <ol>
         <li>
           <button class="slide-moving-button" type="button">
@@ -81,20 +77,33 @@
           </button>
         </li>
       </ol>
+
       <section class=" other goods">
-        <img src="#" alt="Виртуальная реальность">
-        <img src="#" alt="Моноподы для селфи">
-        <img src="#" alt="Экшн-камеры">
-        <img src="#" alt="Фитнес-браслеты">
-        <img src="#" alt="Умные часы">
-        <img src="#" alt="Квадрокоптеры">
+        <ul>
+          <li>
+            <img src="#" alt="Виртуальная реальность">
+          </li>
+          <li>
+            <img src="#" alt="Моноподы для селфи">
+          </li>
+          <li>
+            <img src="#" alt="Экшн-камеры">
+          </li>
+          <li>
+            <img src="#" alt="Фитнес-браслеты">
+          </li>
+          <li>
+            <img src="#" alt="Умные часы">
+          </li>
+          <li>
+            <img src="#" alt="Квадрокоптеры">
+          </li>
+        </ul>
       </section>
 
 
       <section>
-        <button type="button">
-          <span class="delivery">Доставка</span>
-        </button>
+        <button type="button">Доставка</button>
 
         <h2>Доставка</h2>
         <div>Мы с удовольствием доставим ваш товар прямо<br>
@@ -102,16 +111,12 @@
           мы неплохо заработаем, поднимая его на ваш этаж.
         </div>
 
-        <button type="button">
-          <span class="guarantee-credit">Гарантия</span>
-        </button>
+        <button type="button">Гарантия</button>
 
-        <button type="button">
-          <span class="guarantee-credit">Кредит</span>
-        </button>
+        <button type="button">Кредит</button>
 
         <img src="#" alt="Грузовик-доставщик">
-        <a href="#"><b>Доставим редкий товар под заказ</b></a>
+        <a class="style-delivery" href="#">Доставим редкий товар под заказ</a>
       </section>
 
       <h2 class="About-us-contacts-title">О нас</h2>
@@ -122,13 +127,13 @@
           уголки России транспортными компаниями:</p>
       </div>
 
-      <ul>
-        <li><b>Меловые линии</b></li>
-        <li><b>СДИК</b></li>
-        <li><b>ТоксБерри</b></li>
-      </ul>
+      <div>
+        <p><b>Меловые линии</b></p>
+        <p><b>СДИК</b></p>
+        <p><b>ТоксБерри</b></p>
+      </div>
 
-      <a class="button" href="#">Подробнее о нас</a>
+      <a class="link" href="#">Подробнее о нас</a>
 
       <h2 class="About-us-contacts-title">Контакты</h2>
       <div>
@@ -142,14 +147,14 @@
       <h3>Времы работы</h3>
       <ul>
         <li>
-          <time datetime="пн-пт: с 10:00 до 22:00">пн-пт: с 10:00 до 22:00</time>
+          <time class="schedule">пн-пт: с 10:00 до 22:00</time>
         </li>
         <li>
-          <time datetime="сб-вс: с 10:00 до 19:00">сб-вс: с 10:00 до 19:00</time>
+          <time class="schedule">сб-вс: с 10:00 до 19:00</time>
         </li>
       </ul>
 
-      <a class="button" href="#">Напишите нам</a>
+      <a class="link" href="#">Напишите нам</a>
 
       <h2>Подпишитесь на рассылку</h2>
       <div>Еженедельный дайджест с обзорами новинок,<br>
@@ -162,18 +167,25 @@
     </main>
 
     <footer class="page-footer">
-
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <img class="footer-contact-logo" src="" alt="Интернет-магазин Девайс">
         <p class="contact-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
       </section>
 
-      <section class="footer-links">
-        <a href="#">Доставка</a>
-        <a href="#">Гарантия</a>
-        <a href="#">Контакты</a>
-      </section>
+      <nav class="footer-links">
+        <ul>
+          <li>
+            <a href="#">Доставка</a>
+          </li>
+          <li>
+            <a href="#">Гарантия</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
 
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
@@ -196,12 +208,17 @@
         </ul>
       </section>
 
-      <section class="footer-contacts">
+      <nav class="footer-contacts">
         <h2 class="visually-hidden">Телефон</h2>
-        <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
-        <a class="htmlacademy-link" href="https://htmlacademy.ru/"></a>
-      </section>
-
+        <ul>
+          <li>
+            <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+          </li>
+          <li>
+            <a class="htmlacademy-link" href="https://htmlacademy.ru/">/.htmlacademy</a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 
