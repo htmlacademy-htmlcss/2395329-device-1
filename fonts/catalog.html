@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
   <head>
     <meta charset="UTF-8">
     <title>Каталог</title>
@@ -43,18 +42,20 @@
 
     <main class="main-inner">
       <header class="inner-header">
-        <h1>Моноподы для селфи</h1>
-        <ul class="pointers">
-          <li>
-            <a class="pointers-link" href="index.html">Главная</a>
-          </li>
-          <li>
-            <a class="pointers-link" href="catalog.html">Каталог товаров</a>
-          </li>
-          <li>
-            <a class="pointers-link">Моноподы для селфи</a>
-          </li>
-        </ul>
+        <nav>
+          <h1>Моноподы для селфи</h1>
+          <ul class="pointers">
+            <li>
+              <a class="pointers-link" href="index.html">Главная</a>
+            </li>
+            <li>
+              <a class="pointers-link" href="catalog.html">Каталог товаров</a>
+            </li>
+            <li>
+              <a class="pointers-link">Моноподы для селфи</a>
+            </li>
+          </ul>
+        </nav>
       </header>
 
       <section class="filter">
@@ -121,7 +122,6 @@
       <section>
         <header>
           <label>Сортировка</label>
-
           <select class="select control">
             <option value="popular">Популярные</option>
           </select>
@@ -130,28 +130,37 @@
 
         <ul class="product-cards">
           <li class="product-card-link">
-            <img class="product-card-image" src="" alt="">
-            <h3>Любительская селфи-палка</h3>
-            <div class="price">500 ₽</div>
+            <article>
+              <img class="product-card-image" src="" alt="">
+              <h3>Любительская селфи-палка</h3>
+              <div class="price">500 ₽</div>
+            </article>
           </li>
           <li class="product-card-link">
-            <img class="product-card-image" src="" alt="">
-            <h3>Профессиональная селфи-палка</h3>
-            <div class="price">1500 ₽</div>
+            <article>
+              <img class="product-card-image" src="" alt="">
+              <h3>Профессиональная селфи-палка</h3>
+              <div class="price">1500 ₽</div>
+            </article>
           </li>
           <li class="product-card-link">
-            <img class="product-card-image" src="" alt="">
-            <h3>Непотопляемая селфи-палка</h3>
-            <div class="price">2500 ₽</div>
+            <article>
+              <img class="product-card-image" src="" alt="">
+              <h3>Непотопляемая селфи-палка</h3>
+              <div class="price">2500 ₽</div>
+            </article>
           </li>
           <li class="product-card-link">
-            <img class="product-card-image" src="" alt="">
-            <h3>Селфи-палка "Следуй за мной"</h3>
-            <div class="price">1500 ₽</div>
+            <article>
+              <img class="product-card-image" src="" alt="">
+              <h3>Селфи-палка "Следуй за мной"</h3>
+              <div class="price">1500 ₽</div>
+            </article>
           </li>
         </ul>
 
         <button class="button">Загрузить ещё</button>
+
         <div>
           <a class="pagination-link">Назад</a>
           <ul class="pagination">
@@ -161,7 +170,6 @@
             <li>
               <a class="pagination-link" href="#">2</a>
             </li>
-
             <li>
               <a class="pagination-link" href="#">3</a>
             </li>
@@ -185,11 +193,10 @@
             <img class="footer-contact-logo" src="" alt="Интернет-магазин Девайс">
           </p>
           <p>
-            <address class="contact-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
+          <address class="contact-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
           </p>
         </div>
       </section>
-
       <nav class="footer-links">
         <ul>
           <li>
@@ -229,7 +236,7 @@
         <h2 class="visually-hidden">Телефон</h2>
         <div>
           <p>
-          <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+            <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
           </p>
           <p>
             <a class="htmlacademy-link" href="https://htmlacademy.ru/">/.htmlacademy</a>
@@ -238,5 +245,4 @@
       </section>
     </footer>
   </body>
-
 </html>
