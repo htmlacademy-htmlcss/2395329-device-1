@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>Каталог</title>
-  </head>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог</title>
+</head>
 
   <body>
     <header class="main-header">
@@ -12,22 +11,22 @@
         <input placeholder="Поиск по сайту" type="submit">
         <button type="submit">Найти</button>
       </form>
-
       <div class="person-data">
+        <img class="icons" src="images/icon.svg" width="15" height="12" alt="Иконка человечка">
         <a href="#">Коля Петухов</a>
         <a href="#">Выйти</a>
       </div>
-
       <div class="basket">
+        <img class="icons" src="images/chart.svg" width="10" height="12" alt="График">
         <a href="#">Сравнить</a>
+        <img class="icons" src="images/basket.svg" width="16" height="14" alt="Корзина">
         <a href="#">Корзина</a>
       </div>
 
+      <button>Каталог товаров</button>
+
       <nav class="navigation">
         <ul>
-          <li>
-            <button>Каталог товаров</button>
-          </li>
           <li>
             <a href="#">Доставка</a>
           </li>
@@ -44,17 +43,19 @@
     <main class="main-inner">
       <header class="inner-header">
         <h1>Моноподы для селфи</h1>
-        <ul class="pointers">
-          <li>
-            <a class="pointers-link" href="index.html">Главная</a>
-          </li>
-          <li>
-            <a class="pointers-link" href="catalog.html">Каталог товаров</a>
-          </li>
-          <li>
-            <a class="pointers-link">Моноподы для селфи</a>
-          </li>
-        </ul>
+        <nav>
+          <ul class="pointers">
+            <li>
+              <a class="pointers-link" href="index.html">Главная</a>
+            </li>
+            <li>
+              <a class="pointers-link" href="catalog.html">Каталог товаров</a>
+            </li>
+            <li>
+              <a class="pointers-link">Моноподы для селфи</a>
+            </li>
+          </ul>
+        </nav>
       </header>
 
       <section class="filter">
@@ -95,7 +96,6 @@
               </li>
             </ul>
           </fieldset>
-
           <fieldset>
             <legend class="catalog-filter-title">Bluetooth</legend>
             <ul>
@@ -113,45 +113,62 @@
               </li>
             </ul>
           </fieldset>
-
           <button class="button">Показать</button>
         </form>
       </section>
-
       <section>
         <header>
           <label>Сортировка</label>
-
           <select class="select control">
             <option value="popular">Популярные</option>
           </select>
         </header>
 
-
         <ul class="product-cards">
           <li class="product-card-link">
-            <img class="product-card-image" src="" alt="">
-            <h3>Любительская селфи-палка</h3>
-            <div class="price">500 ₽</div>
+            <a href="#">
+              <article>
+                <img class="product-card-image" src="images/catalog-1.jpg" width="360" height="380"
+                  alt="Любительская селфи-палка">
+                <h3>Любительская селфи-палка</h3>
+                <div class="price">500 ₽</div>
+              </article>
+            </a>
           </li>
           <li class="product-card-link">
-            <img class="product-card-image" src="" alt="">
-            <h3>Профессиональная селфи-палка</h3>
-            <div class="price">1500 ₽</div>
+            <a href="#">
+              <article>
+                <img class="product-card-image" src="images/catalog-2.jpg" width="360" height="380"
+                  alt="Профессиональная селфи-палка">
+                <h3>Профессиональная селфи-палка</h3>
+                <div class="price">1500 ₽</div>
+              </article>
+            </a>
           </li>
           <li class="product-card-link">
-            <img class="product-card-image" src="" alt="">
-            <h3>Непотопляемая селфи-палка</h3>
-            <div class="price">2500 ₽</div>
+            <a href="#">
+              <article>
+                <img class="product-card-image" src="images/catalog-3.jpg" width="360" height="380"
+                  alt="Непотопляемая селфи-палка">
+                <h3>Непотопляемая селфи-палка</h3>
+                <div class="price">2500 ₽</div>
+              </article>
+            </a>
           </li>
           <li class="product-card-link">
-            <img class="product-card-image" src="" alt="">
-            <h3>Селфи-палка "Следуй за мной"</h3>
-            <div class="price">1500 ₽</div>
+            <a href="#">
+              <article>
+                <img class="product-card-image" src="images/catalog-4.jpg" width="360" height="380"
+                  alt="Селфи-палка с рукой">
+                <h3>Селфи-палка "Следуй за мной"</h3>
+                <div class="price">1500 ₽</div>
+              </article>
+            </a>
           </li>
         </ul>
 
         <button class="button">Загрузить ещё</button>
+
         <div>
           <a class="pagination-link">Назад</a>
           <ul class="pagination">
@@ -161,7 +178,6 @@
             <li>
               <a class="pagination-link" href="#">2</a>
             </li>
-
             <li>
               <a class="pagination-link" href="#">3</a>
             </li>
@@ -176,20 +192,19 @@
         </div>
       </section>
     </main>
-
     <footer class="page-footer">
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <div>
           <p>
-            <img class="footer-contact-logo" src="" alt="Интернет-магазин Девайс">
+            <img class="footer-contact-logo" src="images/logo.svg" width="145" height="36"
+              alt="Интернет-магазин Девайс">
           </p>
           <p>
-            <address class="contact-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
+          <address class="contact-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
           </p>
         </div>
       </section>
-
       <nav class="footer-links">
         <ul>
           <li>
@@ -203,9 +218,9 @@
           </li>
         </ul>
       </nav>
-
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
+        <img class="logo" src="images/social-list.svg" width="145" height="36" alt="Социальные сети">
         <ul>
           <li class="footer-social-item">
             <a class="telegram" href="https://t.me/htmlacademy">
@@ -224,19 +239,18 @@
           </li>
         </ul>
       </section>
-
       <section class="footer-contacts">
         <h2 class="visually-hidden">Телефон</h2>
         <div>
           <p>
-          <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+            <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
           </p>
           <p>
             <a class="htmlacademy-link" href="https://htmlacademy.ru/">/.htmlacademy</a>
           </p>
+          <img class="logo" src="images/html-name.svg" width="115" height="33" alt="HTML Academy">
         </div>
       </section>
     </footer>
   </body>
-
 </html>
