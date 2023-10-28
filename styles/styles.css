@@ -174,7 +174,8 @@ line-height: 20px;
 color: #ffffff;
 }
 
-footer-links {
+footer-links,
+pagination-link-1 {
   font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
@@ -194,4 +195,49 @@ contact-phone{
 
 htmlacademy-link {
   color: yellow;
+}
+
+.inner-header-h1 {
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+filter {
+  background-color: #F0F0F0;
+}
+
+catalog-filter {
+  color: #000;
+font-family: "Raleway";
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+catalog-filter-title,
+product-card-link,
+button-catalog {
+  font-family: "Rubik";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+}
+
+control {
+  font-family: "Rubik";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+pagination-link{
+font-family: "Rubik", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+color:#444;
 }
