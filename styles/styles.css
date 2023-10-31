@@ -35,7 +35,7 @@ body {
 
 .main-header {
   color: #444;
-  background-color: yellow;
+  background-color: #FFE17F;
 }
 
 .navigation {
@@ -44,7 +44,7 @@ body {
   color: #444;
   font-weight: 800;
   text-align: center;
-  background-color: yellow;
+  background-color: #FFE17F;
   background-image: url("../images/01.svg");
   color: #ffffff ;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@ line-height: 50px;
 button-1{
   text-align: center;
   font-family: "Raleway", sans-serif;
-  color: yellow;
+  color:#FFE17F;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -194,7 +194,7 @@ contact-phone{
 }
 
 htmlacademy-link {
-  color: yellow;
+  color: #FFE17F;
 }
 
 .inner-header-h1 {
@@ -206,7 +206,7 @@ filter {
   background-color: #F0F0F0;
 }
 
-catalog-filter {
+catalog-filter-title {
   color: #000;
 font-family: "Raleway";
 font-size: 16px;
@@ -216,7 +216,7 @@ line-height: 20px;
 text-transform: uppercase;
 }
 
-catalog-filter-title,
+catalog-filter-description,
 product-card-link,
 button-catalog {
   font-family: "Rubik";
