@@ -26,7 +26,7 @@ html {
   height: 100%;
 }
 
-logo {
+.logo {
   display: flex;
   margin: 0;
   padding: 0;
@@ -51,8 +51,8 @@ body {
   background-color: #FFE17F;
 }
 
-navigation-link,
-nav {
+.main-links,
+.other-functions {
   display: flex;
   width: 1040px;
   margin: 0 auto;
@@ -64,23 +64,23 @@ nav {
   width: 517px;
 }
 
-person-data {
+.person-data {
   margin: 0 auto;
   width: 231px;
 }
 
-basket {
+.basket {
   max-width: 240px;
   margin-left: auto;
 }
 
-main-catalog {
+.main-catalog {
   margin: 0;
   padding: 0;
   width: 293px;
 }
 
-navigation-list {
+.navigation-list {
   margin-left: auto;
   width: 471px;
   font-family: "Raleway", sans-serif;
@@ -95,24 +95,24 @@ navigation-list {
   background-size: 100% auto;
 }
 
-main-container {
+.main-container {
   flex-grow: 1;
 }
 
-page-container,
-truck-delivery,
-subscribe {
+.page-container,
+.truck-delivery,
+.subscribe {
   width: 1160px;
   margin: 0 auto;
 }
 
-photoslider {
+.photoslider {
   margin: 0;
   padding: 0;
   max-width: 600px;
 }
 
-description {
+.description {
   margin-right: auto;
   width: 560px;
 }
@@ -127,7 +127,7 @@ description {
   line-height: 50px;
 }
 
-button-1 {
+.button-special {
   text-align: center;
   font-family: "Raleway", sans-serif;
   color: #FFE17F;
@@ -139,7 +139,7 @@ button-1 {
   background-color: #000;
 }
 
-button {
+.button {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -150,7 +150,7 @@ button {
   background-color: #F0F0F0;
 }
 
-link {
+.link {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -176,14 +176,14 @@ link {
   line-height: 30px;
 }
 
-other goods {
+.other-goods {
   width: 1160px;
   display: flex;
   justify-content: space-between;
   padding: 0 40px;
 }
 
-other-goods-2 {
+.other-goods-more {
   display: flex;
   justify-content: space-between;
   font-family: "Raleway", sans-serifs;
@@ -193,13 +193,13 @@ other-goods-2 {
   line-height: 24px;
 }
 
-delivery {
+.delivery {
   margin: 0 auto;
   width: 694px;
 }
 
 
-style-delivery {
+.style-delivery {
   text-align: center;
   font-family: "Raleway", sans-serif;
   color: #000;
@@ -211,7 +211,7 @@ style-delivery {
   background-color: #F0F0F0;
 }
 
-contact-plus {
+.contact-plus {
   width: 1160px;
   display: flex;
   justify-content: space-between;
@@ -234,11 +234,11 @@ contact-plus {
   line-height: 30px;
 }
 
-subscribe {
+.subscribe {
   background-color: #F0F0F0;
 }
 
-newsletter-form {
+.newsletter-form {
   text-align: center;
   font-family: "Raleway", sans-serif;
   color: #000;
@@ -249,32 +249,32 @@ newsletter-form {
   text-transform: uppercase;
 }
 
-catalog-inner {
+.catalog-inner {
   display: flex;
 }
 
-filter {
+.filter {
   width: 200px;
   margin-right: 40px;
 }
 
-select-control {
+.select-control {
   width: 760px;
 }
 
-page-footer {
+.page-footer {
   background-color: #444;
   display: flex;
   width: 1158px;
   margin: 0 auto;
 }
 
-footer-contacts {
+.footer-contacts-main {
   width: 240px;
   margin-right: 292px;
 }
 
-footer-contacts {
+.footer-contact {
   margin-left: auto;
   max-width: 174px;
 }
@@ -288,8 +288,8 @@ footer-contacts {
   color: #ffffff;
 }
 
-footer-links,
-pagination-link-1 {
+.footer-links,
+.pagination-link-1 {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -298,7 +298,7 @@ pagination-link-1 {
   text-transform: uppercase;
 }
 
-contact-phone {
+.contact-phone {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -307,7 +307,7 @@ contact-phone {
   text-decoration-line: underline;
 }
 
-htmlacademy-link {
+.htmlacademy-link {
   color: #FFE17F;
 }
 
@@ -317,11 +317,11 @@ htmlacademy-link {
   text-transform: uppercase;
 }
 
-filter {
+.filter {
   background-color: #F0F0F0;
 }
 
-catalog-filter-title {
+.catalog-filter-title {
   color: #000;
   font-family: "Raleway";
   font-size: 16px;
@@ -331,9 +331,9 @@ catalog-filter-title {
   text-transform: uppercase;
 }
 
-catalog-filter-description,
-product-card-link,
-button-catalog {
+.catalog-filter-description,
+.product-card-link,
+.button-catalog {
   font-family: "Rubik";
   font-size: 18px;
   font-style: normal;
@@ -341,7 +341,7 @@ button-catalog {
   line-height: 20px;
 }
 
-control {
+.control {
   font-family: "Rubik";
   font-size: 16px;
   font-style: normal;
@@ -349,7 +349,7 @@ control {
   line-height: 20px;
 }
 
-pagination-link {
+.pagination-link {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-style: normal;
