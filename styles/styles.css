@@ -626,9 +626,10 @@ flex-direction: column;
 .moving {
   display:flex;
   gap: 12px;
+  justify-content: end;
   margin: 0;
   list-style-type: none;
-  justify-content: end;
+
 }
 
 .style {
