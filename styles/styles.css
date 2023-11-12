@@ -325,15 +325,15 @@ body {
 .main-subscribe {
   display: flex;
   gap: 150px;
-padding-left: 147px;
-padding-bottom: 144px;
+  padding-left: 147px;
+  padding-bottom: 144px;
 }
 
 .main-subscribe-mini {
-display: flex;
-gap: 57px;
-padding-left: 557px;
-padding-bottom: 56px;
+  display: flex;
+  gap: 57px;
+  padding-left: 557px;
+  padding-bottom: 56px;
 }
 
 .newsletter-form {
@@ -378,7 +378,7 @@ padding-bottom: 56px;
 
 .network-links {
   display: flex;
-padding-left:470px;
+  padding-left: 470px;
 
 }
 
@@ -565,19 +565,19 @@ padding-left:470px;
   list-style-type: none;
 }
 
-/*
 .product-card-link {
   list-style-type: none;
   display: flex;
-flex-direction: column;
-
+  flex-direction: column;
+  margin: 0;
 }
 
 .description-price {
   display: flex;
-  padding:40px;
+  padding-top: 32px;
+  gap: 40px;
 }
-*/
+
 .non-decorate {
   text-decoration: none;
   margin: 0;
@@ -654,12 +654,12 @@ flex-direction: column;
 }
 
 .no-margin-h3 {
-margin:0;
-padding-bottom: 15px;
+  margin: 0;
+  padding-bottom: 15px;
 }
 
 .schedule-more {
-  margin:0;
+  margin: 0;
 }
 
 .pad {
@@ -667,11 +667,15 @@ padding-bottom: 15px;
 }
 
 .marg {
-  margin:0;
+  margin: 0;
 }
 
 .catalog-pointers {
-  margin:0;
-  padding-top:35px;
-  padding-bottom:16px;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 16px;
+}
+
+.price {
+  align-self: start;
 }
