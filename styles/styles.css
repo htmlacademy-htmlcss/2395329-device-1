@@ -28,8 +28,7 @@ html {
 
 .logo {
   display: flex;
-  margin: 0;
-  padding-left: 60px;
+
 }
 
 body {
@@ -58,34 +57,27 @@ body {
 
 .logo {
   display: flex;
-  margin: 0;
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 
 .main-links {
   display: flex;
-  width: 1040px;
-  padding-left: 60px;
-  gap: 40px;
+  justify-content: space-between;
+  gap: 12px;
   margin-bottom: 30px;
+
 }
 
 .wrapper-function {
   display: flex;
-  padding-left: 60px;
+  gap: 45px;
+  justify-content: space-between;
 }
 
-.person-data {
-  margin-right: auto;
-  width: 231px;
-  min-width: 15px;
-  min-height: 12px;
-}
 
 .basket {
   display: flex;
-  max-width: 240px;
-  margin-left: auto;
+
 }
 
 .more-functions {
@@ -105,14 +97,10 @@ body {
 .main-catalog {
   margin: 0;
   padding: 0;
-  height: 50px;
-  width: 293px;
   justify-content: center;
 }
 
 .navigation-list {
-  margin-left: auto;
-  width: 471px;
   font-family: "Raleway", sans-serif;
   line-height: 22px;
   color: #444;
@@ -127,16 +115,15 @@ body {
 
 .main-container {
   flex-grow: 1;
+  padding: 15px 60px;
 }
 
-.page-container,
 .subscribe {
   width: 1160px;
   margin: 0 auto;
 }
 
 .wrapper {
-  display: flex;
   gap: 40px;
   margin-bottom: 70px;
 }
@@ -144,18 +131,17 @@ body {
 .photoslider {
   margin: 0;
   padding: 0;
-  max-width: 600px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 40px;
 }
 
-
 .description {
-  margin-right: auto;
-  width: 560px;
-  padding-top: 121px;
+  align-self: center;
 }
 
 .mini-description {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .description-more {
@@ -258,13 +244,12 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
-  padding: 0 116px;
 }
 
 .more-opportunities {
   display: flex;
   margin-bottom: 70px;
+  justify-content: space-around;
 }
 
 .delivery {
@@ -275,8 +260,6 @@ body {
 }
 
 .style-delivery {
-  height: 100px;
-  padding: 70px 0;
   text-align: center;
   font-family: "Raleway", sans-serif;
   color: #000;
@@ -319,21 +302,20 @@ body {
 .subscribe {
   background-color: #F0F0F0;
   height: auto;
-  padding-top: 74px;
+  padding: 65px 0;
 }
 
 .main-subscribe {
   display: flex;
-  gap: 150px;
-  padding-left: 147px;
-  padding-bottom: 144px;
+  gap: 40px;
+  justify-content: space-around;
+  margin-bottom: 140px;
 }
 
 .main-subscribe-mini {
   display: flex;
   gap: 57px;
-  padding-left: 557px;
-  padding-bottom: 56px;
+justify-content: space-around;
 }
 
 .newsletter-form {
@@ -349,6 +331,8 @@ body {
 
 .catalog-inner {
   display: flex;
+  padding: 0 60px;
+  background-color: #F0F0F0;
 }
 
 .filter {
@@ -364,22 +348,20 @@ body {
 .page-footer {
   background-color: #444;
   color: #ffffff;
-  width: 1158px;
-  margin: 0 auto;
-  height: 100%;
+  padding: 62px 140px;
 }
 
 .footer-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
   padding: 0;
   list-style-type: none;
   margin-bottom: 47px;
 }
 
 .network-links {
-  display: flex;
-  padding-left: 470px;
-
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
 }
 
 .footer-links {
@@ -400,9 +382,6 @@ body {
 .footer-contacts-main {
   margin: 0;
   padding: 0;
-  padding-left: 140px;
-  width: 240px;
-
 }
 
 .pointers {
@@ -463,7 +442,6 @@ body {
 }
 
 .filter {
-  background-color: #F0F0F0;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -477,11 +455,11 @@ body {
 }
 
 .product-cards {
+  background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(2, 360px);
   gap: 40px;
   margin: 0;
-  padding-left: 40px;
   margin-bottom: 44px;
 }
 
@@ -528,6 +506,7 @@ body {
   width: 100%;
   gap: 71px;
   margin-bottom: 78px;
+  justify-content: space-around;
 }
 
 .pagination {
@@ -543,7 +522,7 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 44px;
-
+  background-color: #ffffff;
 }
 
 .visually-hidden {
@@ -576,6 +555,7 @@ body {
   display: flex;
   padding-top: 32px;
   gap: 40px;
+  color:#000;
 }
 
 .non-decorate {
@@ -586,16 +566,16 @@ body {
 
 .bottom {
   margin: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .inner-header {
-  gap: 16px;
+  padding: 40px 35px;
 }
 
 .catalog-head {
+  padding: 20px 40px;
   background-color: #F0F0F0;
-  padding: 70px 40px 0px 40px;
 }
 
 .no-pad {
@@ -612,18 +592,12 @@ body {
   padding: 0;
 }
 
-.footer-contact {
-  padding-left: 182px;
-}
-
 .footer-social {
   padding-right: 290px;
 }
 
 .logo-footer {
-  padding-left: 140px;
   margin-bottom: 30px;
-  padding-top: 62px;
 }
 
 .button-more {
@@ -633,7 +607,7 @@ body {
 .moving {
   display: flex;
   gap: 12px;
-  justify-content: end;
+  justify-content: center;
   margin: 0;
   list-style-type: none;
 
@@ -641,21 +615,23 @@ body {
 
 .style {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .no-margin {
   margin: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .About-us-contacts-title {
   margin: 0;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .no-margin-h3 {
   margin: 0;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .schedule-more {
@@ -663,7 +639,7 @@ body {
 }
 
 .pad {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .marg {
@@ -672,10 +648,13 @@ body {
 
 .catalog-pointers {
   margin: 0;
-  padding-top: 35px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .price {
-  align-self: start;
+  flex-shrink: 0;
+}
+
+.catalog-section{
+  background-color: #ffffff;
 }
