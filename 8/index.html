@@ -10,7 +10,10 @@
 
   <body>
     <header class=" main-container main-header">
-      <img class="logo" src="images/logo.svg" width="145" height="36" alt="Интернет-магазин Девайс.">
+      <div class="main-logo">
+        <a href="catalog.html"><img class="logo" src="images/logo.svg" width="145" height="36"
+            alt="Интернет-магазин Девайс."></a>
+      </div>
       <div class="main-links">
         <form action="" method="get">
           <img class="icons" src="images/search.svg" width="16" height="16" alt="Поиск">
@@ -57,7 +60,9 @@
               <div class="mini-description">Этот обычный, на первый взгляд, квадрокоптер оснащён<br>
                 мощным лазером, замаскированным под стандартную камеру.
               </div>
-              <button class="button-more" type="button-more">Подробнее</button>
+              <div class="button-more">
+                <button type="button-more">Подробнее</button>
+              </div>
               <dl class="description-more">
                 <div>
                   <dt class="big"> 800м</dt>
@@ -93,27 +98,27 @@
           <h2 class="visually-hidden">Примеры товаров</h2>
           <ul class="other-goods-more">
             <li>
-              <img src="images/goods-1.svg" weight="160" height="160" alt="Виртуальная реальность">
+              <img class="goods-images"src="images/goods-1.svg" weight="160" height="160" alt="Виртуальная реальность">
               <h3 class="marg">Виртуальная реальность</h3>
             </li>
             <li>
-              <img src="images/goods-2.svg" weight="160" height="160" alt="Моноподы для селфи">
+              <img class="goods-images"src="images/goods-2.svg" weight="160" height="160" alt="Моноподы для селфи">
               <h3 class="marg">Моноподы для селфи</h3>
             </li>
             <li>
-              <img src="images/goods-3.svg" weight="160" height="160" alt="Экшн-камеры">
+              <img class="goods-images"src="images/goods-3.svg" weight="160" height="160" alt="Экшн-камеры">
               <h3 class="marg">Экшн-камеры</h3>
             </li>
             <li>
-              <img src="images/goods-4.svg" weight="160" height="160" alt="Фитнес-браслеты">
+              <img class="goods-images"src="images/goods-4.svg" weight="160" height="160" alt="Фитнес-браслеты">
               <h3 class="marg">Фитнес-браслеты</h3>
             </li>
             <li>
-              <img src="images/gooods-5.svg" weight="160" height="160" alt="Умные часы">
+              <img class="goods-images"src="images/gooods-5.svg" weight="160" height="160" alt="Умные часы">
               <h3 class="marg">Умные часы</h3>
             </li>
             <li>
-              <img src="images/goods-6.svg" weight="160" height="160" alt="Квадрокоптеры">
+              <img class="goods-images" src="images/goods-6.svg" weight="160" height="160" alt="Квадрокоптеры">
               <h3 class="marg">Квадрокоптеры</h3>
             </li>
           </ul>
@@ -136,12 +141,12 @@
           </div>
           <section class="delivery">
             <div>
-            <h2 class="no-margin">Доставка</h2>
-            <div>Мы с удовольствием доставим ваш товар прямо<br>
-              к вашему подъезду совершенно бесплатно! Ведь<br>
-              мы неплохо заработаем, поднимая его на ваш этаж.
+              <h2 class="no-margin">Доставка</h2>
+              <div>Мы с удовольствием доставим ваш товар прямо<br>
+                к вашему подъезду совершенно бесплатно! Ведь<br>
+                мы неплохо заработаем, поднимая его на ваш этаж.
+              </div>
             </div>
-          </div>
             <img src="images/deliverer.svg" weight="136" height="164" alt="Курьер">
           </section>
         </section>
@@ -197,25 +202,25 @@
 
         <section class="subscribe">
           <div class="main-subscribe">
-          <h2 class="marg">Подпишитесь на рассылку</h2>
-          <div>Еженедельный дайджест с обзорами новинок,<br>
-            длительными тест-драйвами,распаковками, а также акции,<br>
-            спецпредложения и вот это вот всё.
+            <h2 class="marg">Подпишитесь на рассылку</h2>
+            <div>Еженедельный дайджест с обзорами новинок,<br>
+              длительными тест-драйвами,распаковками, а также акции,<br>
+              спецпредложения и вот это вот всё.
+            </div>
           </div>
-        </div>
-        <div class="main-subscribe-mini">
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input type="submit" value="Подписаться">
-          </form>
-          <p class="marg">Это бесплатно</p>
-        </div>
+          <div class="main-subscribe-mini">
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <input type="submit" value="Подписаться">
+            </form>
+            <p class="marg">Это бесплатно</p>
+          </div>
         </section>
       </div>
     </main>
 
     <footer class="page-footer">
-      <div>
-        <img class="logo-footer" src="images/logo.footer.svg" width="145" height="36" alt="Интернет-магазин Девайс.">
+      <div class="logo-footer">
+        <img src="images/logo.footer.svg" width="145" height="36" alt="Интернет-магазин Девайс.">
       </div>
       <div class="footer-wrapper">
         <section class="footer-contacts-main">
@@ -264,8 +269,8 @@
           </ul>
         </section>
         <div class="academy">
-          <p>
-            <a class="htmlacademy-link non-decorate" href="https://htmlacademy.ru/">/.htmlacademy</a>
+          <p class="marg">
+            <a class="htmlacademy-link visually-hidden non-decorate" href="https://htmlacademy.ru/">/.htmlacademy</a>
           </p>
           <img class="logo" src="images/html-name.svg" width="115" height="33" alt="HTML Academy">
         </div>
