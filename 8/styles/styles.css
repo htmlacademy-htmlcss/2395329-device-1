@@ -76,8 +76,19 @@ body {
 
 .basket {
   display: flex;
-
+  gap: 36px;
 }
+
+.chart,
+.basket-icon {
+  display: flex;
+  gap: 12px;
+}
+
+.icons-basket{
+align-content: center;
+}
+
 
 .more-functions {
   display: flex;
@@ -572,6 +583,7 @@ body {
 .bottom {
   margin: 0;
 }
+
 .inner-header {
   padding: 40px 35px;
 }
@@ -663,6 +675,6 @@ body {
 }
 
 .footer-social {
- margin-left: auto;
- margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
