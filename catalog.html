@@ -20,15 +20,22 @@
           <button type="submit">Найти</button>
         </form>
         <div class="check-in">
-          <img class="icons" src="images/icon.svg" width="15" height="12" alt="Иконка человечка">
-          <a class="non-decorate" href="#">Коля Петухов</a>
+          <a class="non-decorate" href="#">
+            <img class="icons" src="images/icon.svg" width="15" height="12" alt="Иконка человечка">
+            Коля Петухов</a>
           <a class="non-decorate" href="#">Выйти</a>
         </div>
         <div class="basket">
-          <img class="icons" src="images/chart.svg" width="10" height="12" alt="График">
-          <a class="non-decorate" href="#">Сравнить</a>
-          <img class="icons" src="images/basket.svg" width="16" height="14" alt="Корзина">
-          <a class="non-decorate" href="#">Корзина</a>
+          <div class="chart">
+            <a class="non-decorate" href="#">
+              <img class="icons-basket" src="images/chart.svg" width="10" height="12" alt="График">
+              Сравнить</a>
+          </div>
+          <div class="basket-icon">
+            <a class="non-decorate" href="#">
+              <img class="icons-basket" src="images/basket.svg" width="16" height="14" alt="Корзина">
+              Корзина</a>
+          </div>
         </div>
       </div>
 
@@ -142,79 +149,81 @@
               </div>
             </header>
 
-            <ul class="product-cards">
-              <li class="product-card-link">
-                <a class="non-decorate" href="#">
-                  <article>
-                    <img class="product-card-image" src="images/catalog-1.jpg" width="360" height="380"
-                      alt="Любительская селфи-палка">
-                    <div class="description-price">
-                      <h3 class="marg">Любительская селфи-палка</h3>
-                      <div class="price">500 ₽</div>
-                    </div>
-                  </article>
-                </a>
-              </li>
-              <li class="product-card-link">
-                <a class="non-decorate" href="#">
-                  <article>
-                    <img class="product-card-image" src="images/catalog-2.jpg" width="360" height="380"
-                      alt="Профессиональная селфи-палка">
-                    <div class="description-price">
-                      <h3 class="marg">Профессиональная селфи-палка</h3>
-                      <div class="price">1500 ₽</div>
-                    </div>
-                  </article>
-                </a>
-              </li>
-              <li class="product-card-link">
-                <a class="non-decorate" href="#">
-                  <article>
-                    <img class="product-card-image" src="images/catalog-3.jpg" width="360" height="380"
-                      alt="Непотопляемая селфи-палка">
-                    <div class="description-price">
-                      <h3 class="marg">Непотопляемая селфи-палка</h3>
-                      <div class="price">2500 ₽</div>
-                    </div>
-                  </article>
-                </a>
-              </li>
-              <li class="product-card-link">
-                <a class="non-decorate" href="#">
-                  <article>
-                    <img class="product-card-image" src="images/catalog-4.jpg" width="360" height="380"
-                      alt="Селфи-палка с рукой">
-                    <div class="description-price">
-                      <h3 class="marg">Селфи-палка "Следуй за мной"</h3>
-                      <div class="price">1500 ₽</div>
-                    </div>
-                  </article>
-                </a>
-              </li>
-            </ul>
-
-            <button class="button-catalog">Загрузить ещё</button>
-
-            <div class="wrap-pagination">
-              <a class="pagination-link">Назад</a>
-              <ul class="pagination">
-                <li>
-                  <a class="pagination-link non-decorate" href="#">1</a>
+            <div class="catalog-wrapper">
+              <ul class="product-cards">
+                <li class="product-card-link">
+                  <a class="non-decorate" href="#">
+                    <article>
+                      <img class="product-card-image" src="images/catalog-1.jpg" width="360" height="380"
+                        alt="Любительская селфи-палка">
+                      <div class="description-price">
+                        <h3 class="marg">Любительская селфи-палка</h3>
+                        <div class="price">500 ₽</div>
+                      </div>
+                    </article>
+                  </a>
                 </li>
-                <li>
-                  <a class="pagination-link non-decorate" href="#">2</a>
+                <li class="product-card-link">
+                  <a class="non-decorate" href="#">
+                    <article>
+                      <img class="product-card-image" src="images/catalog-2.jpg" width="360" height="380"
+                        alt="Профессиональная селфи-палка">
+                      <div class="description-price">
+                        <h3 class="marg">Профессиональная селфи-палка</h3>
+                        <div class="price">1500 ₽</div>
+                      </div>
+                    </article>
+                  </a>
                 </li>
-                <li>
-                  <a class="pagination-link non-decorate" href="#">3</a>
+                <li class="product-card-link">
+                  <a class="non-decorate" href="#">
+                    <article>
+                      <img class="product-card-image" src="images/catalog-3.jpg" width="360" height="380"
+                        alt="Непотопляемая селфи-палка">
+                      <div class="description-price">
+                        <h3 class="marg">Непотопляемая селфи-палка</h3>
+                        <div class="price">2500 ₽</div>
+                      </div>
+                    </article>
+                  </a>
                 </li>
-                <li>
-                  <a class="pagination-link non-decorate">...</a>
-                </li>
-                <li>
-                  <a class="pagination-link non-decorate" href="#">15</a>
+                <li class="product-card-link">
+                  <a class="non-decorate" href="#">
+                    <article>
+                      <img class="product-card-image" src="images/catalog-4.jpg" width="360" height="380"
+                        alt="Селфи-палка с рукой">
+                      <div class="description-price">
+                        <h3 class="marg">Селфи-палка "Следуй за мной"</h3>
+                        <div class="price">1500 ₽</div>
+                      </div>
+                    </article>
+                  </a>
                 </li>
               </ul>
-              <a class="pagination-link-1">Вперёд</a>
+
+              <button class="button-catalog">Загрузить ещё</button>
+
+              <div class="wrap-pagination">
+                <a class="pagination-link">Назад</a>
+                <ul class="pagination">
+                  <li>
+                    <a class="pagination-link non-decorate" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="pagination-link non-decorate" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="pagination-link non-decorate" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="pagination-link non-decorate">...</a>
+                  </li>
+                  <li>
+                    <a class="pagination-link non-decorate" href="#">15</a>
+                  </li>
+                </ul>
+                <a class="pagination-link-1">Вперёд</a>
+              </div>
             </div>
           </section>
         </div>

@@ -62,7 +62,7 @@ body {
 .main-links {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 26px;
   margin-bottom: 30px;
 
 }
@@ -73,6 +73,9 @@ body {
   justify-content: space-between;
 }
 
+.person-data {
+  margin-right: auto;
+}
 
 .basket {
   display: flex;
@@ -83,6 +86,7 @@ body {
 .basket-icon {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .icons-basket{
@@ -254,6 +258,7 @@ align-content: center;
 
 .goods-images {
   margin-bottom: 32px;
+  width: 100%;
 }
 
 .container {
@@ -467,7 +472,6 @@ align-content: center;
   display: flex;
   gap: 70px;
   width: 840px;
-  margin-bottom: 70px;
 }
 
 .product-cards {
@@ -521,8 +525,8 @@ align-content: center;
   display: flex;
   width: 100%;
   gap: 71px;
-  margin-bottom: 78px;
   justify-content: space-around;
+  background-color: #F0F0F0;
 }
 
 .pagination {
@@ -534,9 +538,9 @@ align-content: center;
 }
 
 .button-catalog {
-  width: 760px;
+  width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 18px 39px;
   margin-bottom: 44px;
   background-color: #ffffff;
 }
@@ -668,6 +672,7 @@ align-content: center;
 
 .catalog-section {
   background-color: #ffffff;
+  padding: 70px 40 px;
 }
 
 .main-logo {
@@ -677,4 +682,8 @@ align-content: center;
 .footer-social {
   margin-left: auto;
   margin-right: auto;
+}
+
+.catalog-wrapper {
+padding: 70px 40px;
 }
