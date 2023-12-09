@@ -28,8 +28,7 @@ html {
 
 .logo {
   display: flex;
-  margin: 0;
-  padding: 0;
+
 }
 
 body {
@@ -58,41 +57,48 @@ body {
 
 .logo {
   display: flex;
-  margin-left: 60px;
-  margin-bottom: 34px;
 }
 
 .main-links {
   display: flex;
-  width: 1040px;
-  margin-left: 60px;
-  gap: 40px;
+  gap: 26px;
   margin-bottom: 30px;
+
 }
 
 .wrapper-function {
   display: flex;
-  margin-left: 60px;
+  gap: 45px;
+  justify-content: space-between;
 }
 
 .person-data {
   margin-right: auto;
-  width: 231px;
-  min-width: 15px;
-  min-height: 12px;
 }
 
 .basket {
   display: flex;
-  max-width: 240px;
-  margin-left: auto;
+  gap: 36px;
 }
+
+.chart,
+.basket-icon {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.icons-basket {
+  align-content: center;
+}
+
 
 .more-functions {
   display: flex;
-  width: 471px;
+  padding: 0;
   gap: 45px;
   list-style-type: none;
+  margin: 0;
 }
 
 .content form {
@@ -104,14 +110,10 @@ body {
 .main-catalog {
   margin: 0;
   padding: 0;
-  height: 50px;
-  width: 293px;
   justify-content: center;
 }
 
 .navigation-list {
-  margin-left: auto;
-  width: 471px;
   font-family: "Raleway", sans-serif;
   line-height: 22px;
   color: #444;
@@ -126,43 +128,39 @@ body {
 
 .main-container {
   flex-grow: 1;
-  margin-bottom: ;
+  padding: 15px 60px;
 }
 
-.page-container,
 .subscribe {
-  width: 1160px;
   margin: 0 auto;
 }
 
 .wrapper {
-  display: flex;
   gap: 40px;
+  margin-bottom: 70px;
 }
 
 .photoslider {
   margin: 0;
   padding: 0;
-  max-width: 600px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 40px;
 }
 
-
 .description {
-  margin-right: auto;
-  width: 560px;
-  padding-top: 121px;
+  align-self: center;
 }
 
 .mini-description {
-  padding-top: 29px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .description-more {
   display: flex;
   gap: 20px;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .fly {
@@ -182,6 +180,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 50px;
+  margin: 0;
 }
 
 .button-special {
@@ -245,8 +244,9 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
   font-family: "Raleway", sans-serifs;
   font-size: 18px;
   font-style: normal;
@@ -255,26 +255,29 @@ body {
   margin-bottom: 70px;
 }
 
+.goods-images {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
 .container {
   display: flex;
-  flex-direction: row;
-  padding: 0 116px;
 }
 
 .more-opportunities {
   display: flex;
   margin-bottom: 70px;
+  justify-content: space-around;
 }
 
 .delivery {
   margin: 0;
   width: 694px;
-
+  display: flex;
+  gap: 108px;
 }
 
 .style-delivery {
-  height: 100px;
-  padding: 70px 0;
   text-align: center;
   font-family: "Raleway", sans-serif;
   color: #000;
@@ -311,23 +314,25 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
+  margin: 0;
 }
 
 .subscribe {
   background-color: #F0F0F0;
-  height: 421px;
-padding-top: 74px;
+  height: auto;
+  padding: 65px 140px;
 }
 
 .main-subscribe {
   display: flex;
-  gap: 150px;
-  margin-bottom:144px;
+  gap: 40px;
+  margin-bottom: 140px;
 }
 
-.main-subscribe {
+.main-subscribe-mini {
   display: flex;
-margin-bottom: 56px;
+  gap: 57px;
+  justify-content: space-around;
 }
 
 .newsletter-form {
@@ -343,11 +348,13 @@ margin-bottom: 56px;
 
 .catalog-inner {
   display: flex;
+  padding: 25px 60px;
+  background-color: #F0F0F0;
+  gap: 60px;
 }
 
 .filter {
   width: 200px;
-  margin-right: 40px;
   flex-shrink: 2;
 }
 
@@ -358,44 +365,42 @@ margin-bottom: 56px;
 .page-footer {
   background-color: #444;
   color: #ffffff;
-  width: 1158px;
-  margin: 0 auto;
-  height: 100%;
+  padding: 62px 140px;
 }
 
 .footer-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 20px;
   padding: 0;
   list-style-type: none;
   margin-bottom: 47px;
 }
 
 .network-links {
-  display: flex;
-  margin-top: 46px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 20px;
 }
 
 .footer-links {
   margin: 0;
-  padding:0;
-  padding-left:124px;
+  padding: 0;
   display: flex;
+  justify-content: center;
   gap: 35px;
   align-content: center;
   list-style-type: none;
 }
 
-.contact-address-text{
+.contact-address-text {
   margin: 0;
   padding: 0;
 }
 
 .footer-contacts-main {
-margin:0;
-padding:0;
-padding-left:140px;
-  width: 240px;
-
+  margin: 0;
+  padding: 0;
 }
 
 .pointers {
@@ -404,7 +409,6 @@ padding-left:140px;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 34px;
 }
 
 .content p {
@@ -447,6 +451,7 @@ padding-left:140px;
 .check-in {
   display: flex;
   gap: 28px;
+  margin-right: auto;
 }
 
 .inner-header-h1 {
@@ -456,10 +461,9 @@ padding-left:140px;
 }
 
 .filter {
-  background-color: #F0F0F0;
   display: flex;
   flex-direction: column;
-  margin:0;
+  margin: 0;
 }
 
 .catalog-head {
@@ -469,11 +473,13 @@ padding-left:140px;
 }
 
 .product-cards {
-  display: flex;
-  flex-wrap: wrap;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   gap: 40px;
-  align-content: space-evenly;
+  margin: 0;
   margin-bottom: 44px;
+  padding: 0;
 }
 
 .catalog-filter-title {
@@ -484,6 +490,7 @@ padding-left:140px;
   font-weight: 800;
   line-height: 20px;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .catalog-filter-description,
@@ -516,9 +523,11 @@ padding-left:140px;
 
 .wrap-pagination {
   display: flex;
-  width: 100%;
+  align-items: center;
+  padding: 25px;
   gap: 71px;
-margin-bottom: 78px;
+  justify-content: space-around;
+  background-color: #F0F0F0;
 }
 
 .pagination {
@@ -526,15 +535,15 @@ margin-bottom: 78px;
   gap: 20px;
   list-style-type: none;
   margin: 0;
-    padding: 0;
+  padding: 0;
 }
 
 .button-catalog {
-  width: 760px;
-  margin:0;
-  padding:0;
+  width: 100%;
+  margin: 0;
+  padding: 18px 39px;
   margin-bottom: 44px;
-
+  background-color: #ffffff;
 }
 
 .visually-hidden {
@@ -549,7 +558,7 @@ margin-bottom: 78px;
 }
 
 .footer-social-item {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .control-input {
@@ -558,33 +567,49 @@ list-style-type: none;
 
 .product-card-link {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.product-card-image {
+  margin-bottom: 32px;
+  aspect-ratio: 0.95/1;
+}
+
+.description-price {
+  display: flex;
+  gap: 40px;
+  color: #000;
 }
 
 .non-decorate {
-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .bottom {
-margin-bottom: 30px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 30px;
 }
 
 .inner-header {
-  margin: 35px 0;
-  gap: 16px;
+  padding: 40px 60px;
 }
 
 .catalog-head {
+  padding: 20px 40px;
   background-color: #F0F0F0;
-  padding: 70px 40px 0px 40px;
+  margin-bottom: 25px;
 }
 
 .no-pad {
-  padding:0;
-  margin:0;
-}
-
-.margin{
-  margin-bottom:35px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 35px;
 }
 
 .catalog-filter-list {
@@ -592,18 +617,8 @@ margin-bottom: 30px;
   padding: 0;
 }
 
-.footer-contact {
- padding-left: 182px;
-}
-
-.footer-social {
-padding-right: 390px;
-}
-
 .logo-footer {
-  margin-left: 140px;
-  margin-bottom: 34px;
-  padding-top:62px;
+  margin-bottom: 30px;
 }
 
 .button-more {
@@ -611,9 +626,70 @@ padding-right: 390px;
 }
 
 .moving {
-  margin-bottom: 70px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .style {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.no-margin {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.About-us-contacts-title {
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.no-margin-h3 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.schedule-more {
+  margin: 0;
+}
+
+.pad {
+  margin-bottom: 30px;
+}
+
+.marg {
+  margin: 0;
+}
+
+.catalog-pointers {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.price {
+  flex-shrink: 0;
+}
+
+.catalog-section {
+  padding: 70px 40 px;
+}
+
+.main-logo {
+  margin-bottom: 30px;
+}
+
+.footer-social {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.catalog-wrapper {
+  padding: 70px 40px;
+  background-color: #ffffff;
 }
