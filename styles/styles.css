@@ -61,7 +61,6 @@ body {
 
 .main-links {
   display: flex;
-  justify-content: space-between;
   gap: 26px;
   margin-bottom: 30px;
 
@@ -321,13 +320,12 @@ body {
 .subscribe {
   background-color: #F0F0F0;
   height: auto;
-  padding: 65px 0;
+  padding: 65px 140px;
 }
 
 .main-subscribe {
   display: flex;
   gap: 40px;
-  justify-content: space-around;
   margin-bottom: 140px;
 }
 
@@ -350,8 +348,9 @@ body {
 
 .catalog-inner {
   display: flex;
-  padding: 0 60px;
+  padding: 25px 60px;
   background-color: #F0F0F0;
+  gap: 60px;
 }
 
 .filter {
@@ -452,6 +451,7 @@ body {
 .check-in {
   display: flex;
   gap: 28px;
+  margin-right: auto;
 }
 
 .inner-header-h1 {
@@ -464,7 +464,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 25px;
 }
 
 .catalog-head {
@@ -524,6 +523,7 @@ body {
 
 .wrap-pagination {
   display: flex;
+  align-items: center;
   padding: 25px;
   gap: 71px;
   justify-content: space-around;
@@ -574,6 +574,7 @@ body {
 
 .product-card-image {
   margin-bottom: 32px;
+  aspect-ratio: 0.95/1;
 }
 
 .description-price {
@@ -590,6 +591,9 @@ body {
 
 .bottom {
   margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 30px;
 }
 
 .inner-header {
@@ -599,6 +603,7 @@ body {
 .catalog-head {
   padding: 20px 40px;
   background-color: #F0F0F0;
+  margin-bottom: 25px;
 }
 
 .no-pad {
@@ -672,7 +677,6 @@ body {
 }
 
 .catalog-section {
-  background-color: #ffffff;
   padding: 70px 40 px;
 }
 
@@ -687,4 +691,5 @@ body {
 
 .catalog-wrapper {
   padding: 70px 40px;
+  background-color: #ffffff;
 }
