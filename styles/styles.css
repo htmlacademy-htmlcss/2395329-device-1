@@ -26,9 +26,16 @@ html {
   height: 100%;
 }
 
-.logo {
-  display: flex;
+.main-logo-link:hover {
+  opacity: 0.6;
+}
 
+.main-logo-link:active {
+  opacity: 0.3;
+}
+
+.main-logo-link:focus-visible {
+  outline: 2px solid #AF4FFF;
 }
 
 body {
@@ -258,6 +265,7 @@ body {
 .goods-images {
   margin-bottom: 32px;
   width: 100%;
+  z-index: 1;
 }
 
 .container {
@@ -475,7 +483,7 @@ body {
 .product-cards {
   background-color: #ffffff;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin: 0;
   margin-bottom: 44px;
@@ -544,6 +552,25 @@ body {
   padding: 18px 39px;
   margin-bottom: 44px;
   background-color: #ffffff;
+  border: 3px solid #E5E5E5;
+}
+
+.button-catalog:hover {
+  border: 3px solid #000;
+}
+
+.button-catalog:active {
+  opacity: 0.3;
+}
+
+.button-catalog:focus {
+  border: 3px solid #E5E5E5;
+  outline: 2px solid #AF4FFF;
+}
+
+.button-catalog:disabled {
+  border: 3px solid #E5E5E5;
+  opacity: 0.3;
 }
 
 .visually-hidden {
@@ -692,4 +719,171 @@ body {
 .catalog-wrapper {
   padding: 70px 40px;
   background-color: #ffffff;
+}
+
+.other-design:hover {
+  color: #444;
+}
+
+.other-design:active {
+  color: #dcdcdc;
+}
+
+.other-design:focus {
+  color: #000;
+  outline: 2px solid #AF4FFF;
+}
+
+.contact-link {
+  min-width: 220px;
+  min-height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link-line {
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  z-index: 0;
+  background-color: #FFE17F;
+}
+
+.contact-link-text {
+  z-index: 1;
+}
+
+.contact-link:hover .contact-link-line {
+  height: 100%;
+}
+
+.contact-link-line:active {
+  color: #FFCC33;
+}
+
+.button-subscribe {
+  border: 3px solid #C4C4C4;
+}
+
+.button-subscribe:hover {
+  background-color: #000;
+  border: 3px solid #000;
+  color: #ffffff;
+}
+
+.button-subscribe:active {
+  background-color: #000;
+  border: 3px solid #000;
+  color: #444;
+}
+
+.button-subscribe:focus {
+  border: 3px solid #E5E5E5;
+  outline: 2px solid #AF4FFF;
+}
+
+.button-subscribe:disabled {
+  border: 3px solid #E5E5E5;
+  opacity: 0.3;
+}
+
+.button-search {
+  border-radius: 50px 0px 0px 50px;
+  border: 2px solid #000;
+  padding: 0 16px;
+}
+
+.button-search:active {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.button-search:focus {
+  outline: 2px solid #AF4FFF;
+}
+
+.button-search:disabled {
+  opacity: 0.3;
+}
+
+.form {
+  display: flex;
+}
+
+.find {
+  border-radius: 0px 50px 50px 0px;
+  border: 2px solid #000;
+  padding: 10px;
+}
+
+.find:hover{
+  background: #000;
+  color: #ffffff;
+}
+
+.find:active{
+  background: #000;
+  color:#444;
+}
+
+.find:focus{
+  outline: 2px solid #AF4FFF;
+}
+
+.find:disabled{
+  opacity: 0.3;
+}
+
+.components:hover{
+  opacity: 0.6;
+}
+
+.components:active{
+  opacity: 0.3;
+}
+
+.components:focus{
+  outline: 2px solid #AF4FFF;
+}
+
+.color{
+  color: #000;
+}
+
+.special-color{
+  color: #000;
+  opacity: 0.3;
+}
+
+.color-footer{
+  color: #ffffff;
+}
+
+.color-footer:hover{
+  color: #FFCC33;
+  border-bottom: 2px solid #FFCC33;
+}
+
+.color-footer:active{
+  color: #FFCC33;
+  border-bottom: 2px solid #FFCC33;
+  opacity: 0.3;
+}
+
+.color-footer:focus{
+  outline: 2px solid #AF4FFF;
+}
+
+.design:hover{
+color: #ffffff;
+}
+
+.square{
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  z-index: 0;
+  background-color: #FFE17F;
 }
