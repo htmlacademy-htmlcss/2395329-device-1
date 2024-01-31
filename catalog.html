@@ -10,29 +10,30 @@
   <body>
     <header class=" main-container main-header">
       <div class="main-logo">
-        <a href="catalog.html"><img class="logo" src="images/logo.svg" width="145" height="36"
-            alt="Интернет-магазин Девайс."></a>
+        <img class="logo main-logo-link" src="images/logo.svg" width="145" height="36" alt="Интернет-магазин Девайс." />
       </div>
       <div class="main-links">
-        <form action="#" method="get">
-          <img class="icons" src="images/search.svg" width="16" height="16" alt="Поиск">
-          <input placeholder="Поиск по сайту" type="submit">
-          <button type="submit">Найти</button>
+        <form class="form" action="" method="get">
+          <div class="form-data">
+            <img class="icon" src="images/search.svg" width="16" height="16" alt="Поиск">
+            <input placeholder="Поиск по сайту" type="text">
+          </div>
+          <button class="find" type="submit">Найти</button>
         </form>
         <div class="check-in">
-          <a class="non-decorate" href="#">
+          <a class="non-decorate color" href="#">
             <img class="icons" src="images/icon.svg" width="15" height="12" alt="Иконка человечка">
             Коля Петухов</a>
-          <a class="non-decorate" href="#">Выйти</a>
+          <a class="non-decorate special-color" href="#">Выйти</a>
         </div>
         <div class="basket">
           <div class="chart">
-            <a class="non-decorate" href="#">
+            <a class="non-decorate color" href="#">
               <img class="icons-basket" src="images/chart.svg" width="10" height="12" alt="График">
               Сравнить</a>
           </div>
           <div class="basket-icon">
-            <a class="non-decorate" href="#">
+            <a class="non-decorate color" href="#">
               <img class="icons-basket" src="images/basket.svg" width="16" height="14" alt="Корзина">
               Корзина</a>
           </div>
@@ -44,13 +45,13 @@
         <nav class="navigation-list">
           <ul class="more-functions">
             <li>
-              <a class="non-decorate" href="#">Доставка</a>
+              <a class="non-decorate color" href="#">Доставка</a>
             </li>
             <li>
-              <a class="non-decorate" href="#">Гарантия</a>
+              <a class="non-decorate color" href="#">Гарантия</a>
             </li>
             <li>
-              <a class="non-decorate" href="#">Контакты</a>
+              <a class="non-decorate color" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -70,7 +71,7 @@
                 <a class="pointers-link non-decorate" href="catalog.html">Каталог товаров</a>
               </li>
               <li>
-                <a class="pointers-link">Моноподы для селфи</a>
+                <a class="pointers-link other-design" href="#">Моноподы для селфи</a>
               </li>
             </ul>
           </nav>
@@ -141,7 +142,7 @@
             <header class="catalog-head">
               <label>Сортировка</label>
               <select class="select control">
-                <option value="popular">Популярные</option>
+                <option class="color" value="popular">Популярные</option>
               </select>
               <div>
                 <button class="sorts-up">Стрелка вверх</button>
@@ -231,8 +232,8 @@
     </main>
 
     <footer class="page-footer">
-      <div class="logo-footer">
-        <img src="images/logo.footer.svg" width="145" height="36" alt="Интернет-магазин Девайс.">
+      <div class="logo-footer main-logo-link">
+        <img src="images/logo.footer.svg" width="145" height="36" alt="Интернет-магазин Девайс." />
       </div>
       <div class="footer-wrapper">
         <section class="footer-contacts-main">
@@ -242,39 +243,42 @@
         <nav>
           <ul class="footer-links">
             <li>
-              <a class="non-decorate" href="#">Доставка</a>
+              <a class="non-decorate color-footer" href="#">Доставка</a>
             </li>
             <li>
-              <a class="non-decorate" href="#">Гарантия</a>
+              <a class="non-decorate color-footer" href="#">Гарантия</a>
             </li>
             <li>
-              <a class="non-decorate" href="#">Контакты</a>
+              <a class="non-decorate color-footer" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
         <section class="footer-contact">
           <h2 class="visually-hidden">Телефон</h2>
-          <p class="number"><a class="contact-phone non-decorate" href="tel:+78128121212">+7(812)812-12-12</a></p>
+          <p class="number"><a class="contact-phone non-decorate color-footer"
+              href="tel:+78128121212">+7(812)812-12-12</a></p>
         </section>
       </div>
       <div class="network-links">
-        <div>Чёрточка</div>
+        <img src="images/Line.svg" width="80" height="7" alt="">
         <section class="footer-social">
           <h2 class="visually-hidden">Социальные сети</h2>
-          <img class="logo" src="images/social-list.svg" width="145" height="36" alt="Социальные сети">
           <ul class="schedule-more">
             <li class="footer-social-item">
-              <a class="button" href="https://t.me/htmlacademy">
+              <a class="button network-figure" href="https://t.me/htmlacademy">
+                <img src="images/Telegram.svg" width="14" height="12" alt="Телеграм">
                 <span class="visually-hidden">Телеграм</span>
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href=" https://www.youtube.com/user/htmlacademyru">
+              <a class="button network-figure" href=" https://www.youtube.com/user/htmlacademyru">
+                <img src="images/YouTube.svg" width="16" height="11" alt="Ютуб">
                 <span class="visually-hidden">Ютуб</span>
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href="https://twitter.com/htmlacademy_ru">
+              <a class="button network-figure" href="https://twitter.com/htmlacademy_ru">
+                <img src="images/Twitter.svg" width="16" height="14" alt="Твиттер">
                 <span class="visually-hidden">Твиттер</span>
               </a>
             </li>
@@ -282,7 +286,8 @@
         </section>
         <div class="academy">
           <p class="marg">
-            <a class="htmlacademy-link visually-hidden non-decorate" href="https://htmlacademy.ru/">/.htmlacademy</a>
+            <a class="htmlacademy-link visually-hidden non-decorate design"
+              href="https://htmlacademy.ru/">/.htmlacademy</a>
           </p>
           <img class="logo" src="images/html-name.svg" width="115" height="33" alt="HTML Academy">
         </div>

@@ -10,28 +10,29 @@
   <body>
     <header class=" main-container main-header">
       <div class="main-logo">
-        <a href="catalog.html"><img class="logo" src="images/logo.svg" width="145" height="36"
-            alt="Интернет-магазин Девайс."></a>
+        <img class="logo main-logo-link" src="images/logo.svg" width="145" height="36" alt="Интернет-магазин Девайс." />
       </div>
       <div class="main-links">
-        <form action="" method="get">
-          <img class="icons" src="images/search.svg" width="16" height="16" alt="Поиск">
-          <input placeholder="Поиск по сайту" type="submit">
-          <button type="submit">Найти</button>
+        <form class="form" action="" method="get">
+          <div class="form-data">
+            <img class="icon" src="images/search.svg" width="16" height="16" alt="Поиск">
+            <input placeholder="Поиск по сайту" type="text">
+          </div>
+          <button class="find" type="submit">Найти</button>
         </form>
-        <div class="person-data">
-          <a class="non-decorate" href="#">
+        <div class="person-data components">
+          <a class="non-decorate color" href="#">
             <img class="icons" src="images/icon.svg" width="15" height="12" alt="Иконка человечка">
             Войти</a>
         </div>
-        <div class="basket">
+        <div class="basket components">
           <div class="chart">
-            <a class="non-decorate" href="#">
+            <a class="non-decorate color" href="#">
               <img class="icons-basket" src="images/chart.svg" width="10" height="12" alt="График">
               Сравнить</a>
           </div>
           <div class="basket-icon">
-            <a class="non-decorate" href="#">
+            <a class="non-decorate color" href="#">
               <img class="icons-basket" src="images/basket.svg" width="16" height="14" alt="Корзина">
               Корзина</a>
           </div>
@@ -43,13 +44,13 @@
         <nav class="navigation-list">
           <ul class="more-functions">
             <li>
-              <a class="non-decorate" href="#">Доставка</a>
+              <a class="non-decorate color" href="#">Доставка</a>
             </li>
             <li>
-              <a class="non-decorate" href="#">Гарантия</a>
+              <a class="non-decorate color" href="#">Гарантия</a>
             </li>
             <li>
-              <a class="non-decorate" href="#">Контакты</a>
+              <a class="non-decorate color" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -60,14 +61,17 @@
       <div class="page-container">
         <article class="wrapper">
           <div class="photoslider">
-            <img class="slider-image" src="images/slider-1.jpg" width="560" height="560" alt="Квадракоптер">
+            <img class="slider-image" src="images/slider-1.png" width="560" height="560" alt="Квадракоптер">
             <div class="description">
               <h2 class="no-margin">Порхает как бабочка, жалит как пчела</h2>
               <div class="mini-description">Этот обычный, на первый взгляд, квадрокоптер оснащён<br>
                 мощным лазером, замаскированным под стандартную камеру.
               </div>
               <div class="button-more">
-                <button type="button-more">Подробнее</button>
+                <button class="button-more contact-link">
+                  <span class="contact-link-line"></span>
+                  <span class="contact-link-text">Подробнее</span>
+                </button>
               </div>
               <dl class="description-more">
                 <div>
@@ -83,7 +87,7 @@
           </div>
           <ol class="moving">
             <li>
-              <button class="slide-moving-button" type="button">
+              <button class="slide-moving-button-1" type="button">
                 <span class="visually-hidden">1 фото</span>
               </button>
             </li>
@@ -104,27 +108,42 @@
           <h2 class="visually-hidden">Примеры товаров</h2>
           <ul class="other-goods-more">
             <li>
-              <img class="goods-images" src="images/goods-1.svg" weight="160" height="160" alt="Виртуальная реальность">
+              <div class="image-wrapper">
+                <img class="goods-images" src="images/goods-1.svg" weight="160" height="160"
+                  alt="Виртуальная реальность">
+              </div>
               <h3 class="marg">Виртуальная реальность</h3>
             </li>
             <li>
-              <img class="goods-images" src="images/goods-2.svg" weight="160" height="160" alt="Моноподы для селфи">
-              <h3 class="marg">Моноподы для селфи</h3>
+              <div class="image-wrapper">
+                <img class="goods-images" src="images/goods-2.svg" weight="160" height="160" alt="Моноподы для селфи">
+              </div>
+              <a class="catalog-link" href="catalog.html">
+                <h3 class="marg">Моноподы для селфи</h3>
+              </a>
             </li>
             <li>
-              <img class="goods-images" src="images/goods-3.svg" weight="160" height="160" alt="Экшн-камеры">
+              <div class="image-wrapper">
+                <img class="goods-images" src="images/goods-3.svg" weight="160" height="160" alt="Экшн-камеры">
+              </div>
               <h3 class="marg">Экшн-камеры</h3>
             </li>
             <li>
-              <img class="goods-images" src="images/goods-4.svg" weight="160" height="160" alt="Фитнес-браслеты">
+              <div class="image-wrapper">
+                <img class="goods-images" src="images/goods-4.svg" weight="160" height="160" alt="Фитнес-браслеты">
+              </div>
               <h3 class="marg">Фитнес-браслеты</h3>
             </li>
             <li>
-              <img class="goods-images" src="images/gooods-5.svg" weight="160" height="160" alt="Умные часы">
+              <div class="image-wrapper">
+                <img class="goods-images" src="images/gooods-5.svg" weight="160" height="160" alt="Умные часы">
+              </div>
               <h3 class="marg">Умные часы</h3>
             </li>
             <li>
-              <img class="goods-images" src="images/goods-6.svg" weight="160" height="160" alt="Квадрокоптеры">
+              <div class="image-wrapper">
+                <img class="goods-images" src="images/goods-6.svg" weight="160" height="160" alt="Квадрокоптеры">
+              </div>
               <h3 class="marg">Квадрокоптеры</h3>
             </li>
           </ul>
@@ -135,13 +154,15 @@
             <h2 class="visually-hidden">Больше функций</h2>
             <ul class="style">
               <li>
-                <button type="button-special">Доставка</button>
+                <button class="button-design-special" type=" button">Доставка</button>
               </li>
-              <li>
-                <button type="button">Гарантия</button>
+              <li class="contact-link-wrapper">
+                <span class="contact-link-line"></span>
+                <button class="button-design" type="button">Гарантия</button>
               </li>
-              <li>
-                <button type="button">Кредит</button>
+              <li class="contact-link-wrapper">
+                <span class="contact-link-line"></span>
+                <button class="button-design" type="button">Кредит</button>
               </li>
             </ul>
           </div>
@@ -159,8 +180,15 @@
 
         <section class="truck-delivery">
           <h3 class="visually-hidden">Доставка</h3>
-          <img src="" alt="Грузовик-доставщик">
-          <button class="style-delivery" href="#">Доставим редкий товар под заказ</button>
+          <div class="delivery-more">
+            <div class="wrapper-truck">
+              <img class="truck" src="images/truck.svg" alt="Грузовик-доставщик" />
+            </div>
+            <p class="style-delivery" href="#">Доставим редкий товар под заказ</p>
+            <div class="spesial-frame">
+              <img class="frame-deliver network-figure" src="images/Frame-deliver.svg" alt="Подробности" />
+            </div>
+          </div>
         </section>
 
         <div class="contact-plus">
@@ -173,11 +201,13 @@
                 уголки России транспортными компаниями:</p>
             </div>
             <ul class="bottom">
-              <li><b>Меловые линии</b></li>
-              <li><b>СДИК</b></li>
-              <li><b>ТоксБерри</b></li>
+              <li class="round"><b>Меловые линии</b></li>
+              <li class="round"><b>СДИК</b></li>
+              <li class="round"><b>ТоксБерри</b></li>
             </ul>
-            <a class="link non-decorate" href="#">Подробнее о нас</a>
+            <a class="link non-decorate contact-link" href="#">
+              <span class="contact-link-line"></span>
+              <span class="contact-link-text"> Подробнее о нас </span></a>
           </section>
           <section class="Contacs">
             <h2 class="About-us-contacts-title">Контакты</h2>
@@ -201,7 +231,10 @@
                 </p>
               </div>
 
-              <a class="link non-decorate" href="#">Напишите нам</a>
+              <a class="link non-decorate contact-link" href="#">
+                <span class="contact-link-line"></span>
+                <span class="contact-link-text">Напишите нам</span>
+              </a>
             </section>
           </section>
         </div>
@@ -216,7 +249,7 @@
           </div>
           <div class="main-subscribe-mini">
             <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-              <input type="submit" value="Подписаться">
+              <input class="button-subscribe" type="submit" value="Подписаться">
             </form>
             <p class="marg">Это бесплатно</p>
           </div>
@@ -225,8 +258,8 @@
     </main>
 
     <footer class="page-footer">
-      <div class="logo-footer">
-        <img src="images/logo.footer.svg" width="145" height="36" alt="Интернет-магазин Девайс.">
+      <div class="logo-footer main-logo-link">
+        <img src="images/logo.footer.svg" width="145" height="36" alt="Интернет-магазин Девайс." />
       </div>
       <div class="footer-wrapper">
         <section class="footer-contacts-main">
@@ -236,39 +269,41 @@
         <nav>
           <ul class="footer-links">
             <li>
-              <a class="non-decorate" href="#">Доставка</a>
+              <a class="non-decorate color-footer" href="#">Доставка</a>
             </li>
             <li>
-              <a class="non-decorate" href="#">Гарантия</a>
+              <a class="non-decorate color-footer" href="#">Гарантия</a>
             </li>
             <li>
-              <a class="non-decorate" href="#">Контакты</a>
+              <a class="non-decorate color-footer" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
         <section class="footer-contact">
           <h2 class="visually-hidden">Телефон</h2>
-          <p class="number"><a class="contact-phone non-decorate" href="tel:+78128121212">+7(812)812-12-12</a></p>
+          <p class="number"><a class="contact-phone non-decorate color-footer"
+              href="tel:+78128121212">+7(812)812-12-12</a></p>
         </section>
       </div>
       <div class="network-links">
-        <div>Чёрточка</div>
         <section class="footer-social">
-          <h2 class="visually-hidden">Социальные сети</h2>
-          <img class="logo" src="images/social-list.svg" width="145" height="36" alt="Социальные сети">
+          <h2 class="visually-hidden footer-socials">Социальные сети</h2>
           <ul class="schedule-more">
             <li class="footer-social-item">
-              <a class="button" href="https://t.me/htmlacademy">
+              <a class="button network-figure" href="https://t.me/htmlacademy">
+                <img src="images/Telegram.svg" width="14" height="12" alt="Телеграм">
                 <span class="visually-hidden">Телеграм</span>
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href=" https://www.youtube.com/user/htmlacademyru">
+              <a class="button network-figure" href=" https://www.youtube.com/user/htmlacademyru">
+                <img src="images/YouTube.svg" width="16" height="11" alt="Ютуб">
                 <span class="visually-hidden">Ютуб</span>
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href="https://twitter.com/htmlacademy_ru">
+              <a class="button network-figure" href="https://twitter.com/htmlacademy_ru">
+                <img src="images/Twitter.svg" width="16" height="14" alt="Твиттер">
                 <span class="visually-hidden">Твиттер</span>
               </a>
             </li>
@@ -276,11 +311,13 @@
         </section>
         <div class="academy">
           <p class="marg">
-            <a class="htmlacademy-link visually-hidden non-decorate" href="https://htmlacademy.ru/">/.htmlacademy</a>
+            <a class="htmlacademy-link visually-hidden non-decorate design"
+              href="https://htmlacademy.ru/">/.htmlacademy</a>
           </p>
           <img class="logo" src="images/html-name.svg" width="115" height="33" alt="HTML Academy">
         </div>
       </div>
     </footer>
   </body>
+
 </html>
